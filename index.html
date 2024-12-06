@@ -49,13 +49,12 @@
         margin-bottom: 20px;
         height: 100px;
       }
-      
-/*       IMAGES */
+
+      /*       IMAGES */
 
       .logo {
         margin-left: 20px;
         margin-top: 70px;
-        /* Kept the same for positioning */
       }
 
       .logo2 {
@@ -114,40 +113,57 @@
         top: 2350px;
         margin-left: 10px;
       }
-      
+
       .introimg {
         position: absolute;
         left: 470px;
       }
-      
-       .court-container {
-    display: flex; /* Enable Flexbox */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    margin-bottom: 300px; /* Adjust bottom margin for the container */
-}
 
-.court1, .court2 {
-    width: 48%; /* Fixed width for two items per row */
-    padding: 20px; /* Example padding */
-    margin-top: 120px;
-    margin-bottom: 10px; /* Add bottom margin for spacing between rows */
-}
+      .court-container {
+        display: flex;
+        /* Enable Flexbox */
+        flex-wrap: wrap;
+        /* Allow items to wrap to the next line */
+        margin-bottom: 300px;
+        /* Adjust bottom margin for the container */
+      }
 
-.court3, .court4 {
-    width: 48%; /* Fixed width for the next two items */
-    padding: 20px; /* Example padding */
-    margin-bottom: 20px; /* Add bottom margin for spacing between rows */
-}
+      .court1,
+      .court2 {
+        width: 48%;
+        /* Fixed width for two items per row */
+        padding: 20px;
+        /* Example padding */
+        margin-top: 120px;
+        margin-bottom: 10px;
+        /* Add bottom margin for spacing between rows */
+        max-width: 700px;
+      }
 
-/* Optional: To create space between items in the same row */
-.court1, .court2, .court3, .court4 {
-    margin-right: 2%; /* Right margin for spacing */
-}
-        
-      
+      .court3,
+      .court4 {
+        width: 48%;
+        /* Fixed width for the next two items */
+        padding: 20px;
+        /* Example padding */
+        margin-bottom: 20px;
+        /* Add bottom margin for spacing between rows */
+        max-width: 700px;
+      }
+
+      /* Optional: To create space between items in the same row */
+      .court1,
+      .court2,
+      .court3,
+      .court4 {
+        margin-right: 2%;
+        /* Right margin for spacing */
+      }
 
 
-/*       BUTTONS */
+
+
+      /*       BUTTONS */
       .contact-button {
         display: inline-block;
         padding: 10px 20px;
@@ -171,8 +187,8 @@
         text-decoration: none;
         border-radius: 5px;
       }
-      
-/*      PROJECT SECTIONS */
+
+      /*      PROJECT SECTIONS */
       .project1 {
         height: 290px;
         width: 250px;
@@ -247,7 +263,7 @@
         color: #052765;
       }
 
-/*       HEADER FORMATING */
+      /*       HEADER FORMATING */
       ul {
         list-style-type: none;
         margin-top: 20px;
@@ -273,8 +289,9 @@
       li a:hover {
         text-decoration: underline;
       }
-      
-/*       ALL SECTIONS */
+
+      /*       ALL SECTIONS */
+
       #section1 {
         display: flex;
         /* Use flexbox for alignment */
@@ -297,23 +314,9 @@
         height: 180px;
         padding: 10px;
         margin-top: 250px;
-
       }
-
-      #section3 {
-        background-color: white;
-        width: 1000px;
-        height: 400px;
-        display: flex;
-        justify-content: flex-start;
-        /* Align items to the start */
-        color: #052765;
-        box-sizing: border-box;
-        padding: 20px;
-        /* Added padding for spacing */
-      }
-
-      #section2 h1 {
+      
+       #section2 h1 {
         font-size: 55px;
         font-weight: normal;
         margin: 10px 0;
@@ -328,6 +331,19 @@
         margin-left: 650px;
       }
 
+      #section3 {
+        background-color: white;
+        width: 1000px;
+        height: 400px;
+        display: flex;
+        justify-content: flex-start;
+        /* Align items to the start */
+        color: #052765;
+        box-sizing: border-box;
+        padding: 20px;
+        /* Added padding for spacing */
+      }
+      
       #section3 .text-box {
         background-color: #EAEDED;
         padding: 20px;
@@ -393,30 +409,31 @@
       }
 
       #section7 h1 {
-        margin: 0; /* Remove margin from headings */
+        margin: 0;
+        /* Remove margin from headings */
         margin-left: 80px;
         font-size: 40px;
         text-align: center;
         color: #052765;
       }
-      
+
       #section7 h2 {
-          margin-left: 80px;
+        margin-left: 80px;
         margin-top: 1px;
-         color: #052765;
+        color: #052765;
         text-align: center;
         font-weight: normal;
       }
-      
-       #section7 p {
-          margin-left: 100px;
+
+      #section7 p {
+        margin-left: 100px;
         margin-top: 1px;
-         color: #052765;
+        color: #052765;
         text-align: center;
         font-size: 18px;
         font-weight: normal;
       }
-      
+
       #section7 .text-box {
         background-color: #EAEDED;
         padding: 20px;
@@ -425,6 +442,27 @@
         text-align: center;
         margin-left: 350px;
         margin-top: 400px;
+      }
+
+      #section8 {
+        background-color: white;
+        height: 500px;
+        flex: 1;
+      }
+      
+       #section8 h1 {
+         margin: 0;
+        font-size: 40px;
+        font-weight: normal;
+        margin-left: 90px;
+         color: #052765;
+      }
+      
+      #section8 h2 {
+        font-size: 20px;
+        color: #052765;
+        font-weight: normal;
+        margin-left: 130px;
       }
 
 
@@ -437,7 +475,6 @@
         padding: 20px 0;
         margin-top: auto;
       }
-      
     </style>
   </head>
 
@@ -572,36 +609,47 @@
           <h1>
             Court Flow Shoot
           </h1>
-          
+
           <h2>
             United Filipino <br> Basketball League
           </h2>
-        <img src="CourtFlow.png" alt="Project Photo" class="introimg" style="width:500px; height:360px;">
-          
+          <img src="CourtFlow.png" alt="Project Photo" class="introimg" style="width:500px; height:360px;">
+
           <div class="text-box">
-           <h2> About the Project</h2>
+            <h2> About the Project</h2>
             <p>The United Filipino League unites countless Filipinos as a community through their shared passion for basketball. This photo shoot aimed to capture the pure essence of flow—those moments when individuals are fully immersed in the sport they love most. I chose this team because their undeniable bond and impressive stats showcase their skills and dominance in the league. It’s incredible to capture the determination and teamwork that drive their hard-fought victories.When T.G.I.F takes the court, they’re completely locked in, with everything else fading into the background. These shots capture their journey—dynamic action moments, intense concentration, and celebrations.
             </p>
-            
+
             <img src="CourtPic1.png" alt="Project Photo" class="court1" style="width:300px; height:260px;">
-            
-             <img src="CourtPic2.png" alt="Project Photo" class="court2" style="width:300px; height:260px;">
-            
-             <img src="CourtPic3.png" alt="Project Photo" class="court3" style="width:300px; height:260px;">
-            
-             <img src="CourtPic4.png" alt="Project Photo" class="court4" style="width:300px; height:260px;">
+
+            <img src="CourtPic2.png" alt="Project Photo" class="court2" style="width:300px; height:260px;">
+
+            <img src="CourtPic3.png" alt="Project Photo" class="court3" style="width:300px; height:260px;">
+
+            <img src="CourtPic4.png" alt="Project Photo" class="court4" style="width:300px; height:260px;">
+          </div>
         </div>
-      </div>
 
 
 
-      <!--        PAGE 4 CONTENT -->
-      <div id="page4">
+        <!--        PAGE 4 CONTENT -->
+        <div id="page4">
 
-        <div class="footer">
-          <img src="OFFICIALPortfoliologowhite 2.png" alt="Pic" class="logo2" style="width:200px; height:250px;">
-          <a href="#Contact" class="contact-button">Contact Me</a>
-          <p>&copy; 2024 Jasmine Henri. All rights reserved.</p>
+          <div id="section8" style="display: block; width: 100%;">
+            <h1>
+              Contact Me
+            </h1>
+
+<h2><a href="jasmine.henrii@gmail.com">jasmine.henrii@gmail.com</a>
+</h2>
+          </div>
+
+          <div class="footer">
+            <img src="OFFICIALPortfoliologowhite 2.png" alt="Pic" class="logo2" style="width:200px; height:250px;">
+            <a href="#Contact" class="contact-button">Contact Me</a>
+            <p>&copy; 2024 Jasmine Henri. All rights reserved.</p>
+
+          </div>
         </div>
       </div>
     </div>
